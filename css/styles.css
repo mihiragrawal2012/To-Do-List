@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-image: url("bimage1.jpg");
+}
+
+h1 {
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline overline;
+  color: #fa9905;
+  margin: 1rem auto 2rem;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 350px;
+  margin: 0.25rem;
+  font-size: 1.15rem;
+  background-color: #ffb037;
+}
+
+.add {
+  outline: none;
+  border-width: medium;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0.25rem;
+}
+
+.add:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.item_input {
+  background: #ffe268;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #222;
+  font-size: 1.4rem;
+  width: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  padding: 0rem 1rem;
+}
+
+.edit {
+  background: black;
+  border: none;
+  border-radius: 100%;
+  color: #fa9905;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  transition: 0.5s;
+}
+
+.edit:hover {
+  border: none;
+  background: #fa9905;
+  color: black;
+}
+
+.remove {
+  border: none;
+  background: #fa9905;
+  color: black;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 1rem 1.15rem;
+  transition: 0.5s;
+}
+
+.remove:hover {
+  border: none;
+  background: black;
+  color: #fa9905;
+}
